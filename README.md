@@ -1,5 +1,7 @@
 # Desafio 01 - RocketSeat - Praticando Conceitos ReactJS
 
+Desafio proposto e feito com o intuito de desenvolver uma ferramenta de Listagens de **TO-DO**.
+Praticando assim os conceitos básicos do ReactJS
 ## Cloning
 
 ```sh
