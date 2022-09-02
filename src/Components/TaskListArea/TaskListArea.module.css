@@ -1,0 +1,71 @@
+.listArea {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 1.5rem;
+}
+
+.listAreaHeader {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.completedTasks,
+.createdTasks {
+  font-weight: 700;
+  font-size: 0.875rem;
+}
+
+.completedTasks span:first-of-type {
+  color: var(--purple-300);
+}
+
+.createdTasks span:first-of-type {
+  color: var(--blue-300);
+}
+
+.counter {
+  padding: 2px 8px;
+
+  border-radius: 999px;
+  background: var(--gray-400);
+
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+
+  margin-left: 8px;
+}
+
+
+.listAreaContent,
+.listAreaNoCotent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid var(--gray-400);
+  border-radius: 8px;
+  width: 100%;
+
+  gap: 0.75rem;
+}
+
+.listAreaNoCotent {
+  padding-top: 4rem;
+}
+
+.listAreaNoCotent img {
+  margin-bottom: 1rem;
+}
+
+.listAreaNoCotent span:first-of-type {
+  font-weight: 700;
+  color: var(--gray-300)
+}
+
+.listAreaNoCotent span:nth-of-type(2) {
+  font-weight: 400;
+  color: var(--gray-300)
+}

@@ -1,0 +1,59 @@
+.taskBox {
+  display: grid;
+  grid-template-columns: 24px 1fr 24px;
+
+  align-items: flex-start;
+  width: 100%;
+  gap: 0.75rem;
+  padding: 1rem;
+
+  border: 1px solid var(--gray-400);
+  background: var(--gray-500);
+
+  border-radius: 8px;
+
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  color: var(--gray-100);
+}
+
+.taskBox button {
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  border-radius: 2px;
+
+  line-height: 0;
+  transition: color 0.2s;
+}
+
+.taskBox button:focus {
+  box-shadow: 0 0 0 0;
+}
+
+.taskBox span {
+  transition: color 0.2s;
+}
+
+.checked span {
+  text-decoration: line-through;
+  color: var(--gray-300)
+}
+
+.checked .checkButton {
+  color: var(--purple-700)
+}
+
+.unchecked .checkButton {
+  color: var(--blue-300)
+}
+
+
+
+.trashButton {
+  color: var(--gray-300)
+}
+
+.trashButton:hover {
+  color: var(--red-300);
+}

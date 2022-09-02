@@ -1,0 +1,12 @@
+.taskArea {
+  width: 100%;
+  max-width: 46rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: -1.75rem;
+  gap: 4rem;
+}
