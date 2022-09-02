@@ -1,16 +1,20 @@
-# RocketSeat-Desafio-01
-Desafio 01 - RocketSeat - Praticando Conceitos ReactJS
+# Desafio 01 - RocketSeat - Praticando Conceitos ReactJS
 
+## Cloning
 
-#Cloning
-
+```sh
 git clone https://github.com/leopaixaoneto/RocketSeat-Desafio-01.git
+```
 
-#Pre-running
+## Pre-running
 
+```sh
 cd ./RocketSeat-Desafio-01
 npm install
+```
 
-#Running
+## Running
 
+```sh
 vite
+```
