@@ -51,3 +51,16 @@
 .addArea button:hover {
   background-color: var(--blue-300)
 }
+
+
+@media(max-width: 768px) {
+  .addArea {
+    display: flex;
+    flex-direction: column;
+    padding: 0 0.75rem;
+  }
+
+  .addArea button {
+    width: 100%;
+  }
+}

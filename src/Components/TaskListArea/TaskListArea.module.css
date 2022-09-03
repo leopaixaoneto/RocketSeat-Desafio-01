@@ -3,6 +3,8 @@
   flex-direction: column;
   width: 100%;
   gap: 1.5rem;
+
+  padding-bottom: 8px;
 }
 
 .listAreaHeader {
@@ -68,4 +70,10 @@
 .listAreaNoCotent span:nth-of-type(2) {
   font-weight: 400;
   color: var(--gray-300)
+}
+
+@media(max-width: 768px) {
+  .listArea {
+    padding: 0 0.75rem 0.875rem;
+  }
 }

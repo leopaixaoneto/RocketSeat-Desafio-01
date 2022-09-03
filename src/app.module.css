@@ -5,3 +5,10 @@
   justify-content: center;
   align-items: center;
 }
+
+
+@media(max-width: 768px) {
+  html {
+    font-size: 87.5%;
+  }
+}
